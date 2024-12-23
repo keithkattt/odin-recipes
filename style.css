@@ -1,19 +1,42 @@
 body {
-    background-color: whitesmoke;
+    background-image: url('../img/main_page_background.jpg');
+    background-repeat: no-repeat;
     color: rgb(0, 0, 0);
 }
 
-h1 {
+.header {
     color: black;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
+    font-weight: bold;
+}
+
+.text-background {
+    background-color: beige;
+    display: inline-block;
+    padding: 5;
+    height: 10vh;
+    width: 50%;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 div.centered-list {
+    background-color: beige;
+    width: 50%;
     font-size: 20px;
     text-align: center;
-    list-style-type: disc;    
+    list-style-type: disc;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;  
 }
 
 ul.myUL {
