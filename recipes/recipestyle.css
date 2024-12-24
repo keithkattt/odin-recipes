@@ -1,0 +1,28 @@
+body {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    color: darkred;
+}
+
+.pizza_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.text-alignment {
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+button {
+    font-weight: 700;
+    border-radius: 15px;
+    margin-left: 20px;
+}
