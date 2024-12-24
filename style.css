@@ -41,4 +41,5 @@ div.centered-list {
 ul.myUL {
     display: inline-block;
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
 }
