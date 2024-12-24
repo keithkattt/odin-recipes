@@ -4,34 +4,27 @@ body {
 }
 
 .header {
-    color: black;
+    color:  black;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10%;
 }
 
-.text-background {
+div {
     background-color: beige;
-    display: inline-block;
-    padding: 5;
-    height: 10vh;
-    width: 50%;
-}
-
-.center-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 div.centered-list {
-    background-color: beige;
-    width: 50%;
     font-size: 20px;
     text-align: center;
     list-style-type: disc;  
@@ -40,6 +33,8 @@ div.centered-list {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 ul.myUL {
