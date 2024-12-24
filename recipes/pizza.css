@@ -20,3 +20,9 @@ body {
     margin-left: 30px;
     margin-right: auto;
 }
+
+button {
+    font-weight: 700;
+    border-radius: 15px;
+    margin-left: 20px;
+}
